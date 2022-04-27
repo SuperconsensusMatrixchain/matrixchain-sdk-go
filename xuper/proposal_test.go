@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account"
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
 	"github.com/pkg/errors"
-	"github.com/superconsensus/matrix-sdk-go/v2/account"
-	"github.com/superconsensus/matrix-sdk-go/v2/common/config"
 	"github.com/xuperchain/xuperchain/service/pb"
 	"google.golang.org/grpc"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/superconsensus/matrix-sdk-go/v2/xuper"
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/xuper"
 )
 
 func main() {

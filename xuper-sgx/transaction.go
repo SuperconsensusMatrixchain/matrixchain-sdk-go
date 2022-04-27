@@ -2,9 +2,9 @@ package xuper_sgx
 
 import (
 	"encoding/json"
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account-sgx"
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common"
 	"github.com/pkg/errors"
-	"github.com/superconsensus/matrix-sdk-go/v2/account-sgx"
-	"github.com/superconsensus/matrix-sdk-go/v2/common"
 	"github.com/xuperchain/xuperchain/service/pb"
 	"strings"
 )

@@ -9,8 +9,8 @@ package xuper_sgx
 //	"testing"
 //	"time"
 //
-//	"github.com/superconsensus/matrix-sdk-go/v2/account"
-//	"github.com/superconsensus/matrix-sdk-go/v2/common/config"
+//	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account"
+//	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
 //	"github.com/xuperchain/xuperchain/service/pb"
 //)
 //

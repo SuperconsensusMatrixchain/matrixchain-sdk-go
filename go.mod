@@ -1,4 +1,4 @@
-module github.com/superconsensus/matrix-sdk-go/v2
+module github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2
 
 go 1.16
 

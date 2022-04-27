@@ -1,7 +1,7 @@
 package xuper_sgx
 
 import (
-	account_sgx "github.com/superconsensus/matrix-sdk-go/v2/account-sgx"
+	account_sgx "github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account-sgx"
 	"testing"
 
 	"github.com/xuperchain/xuperchain/service/pb"

@@ -4,7 +4,7 @@
 package crypto
 
 import (
-	"github.com/superconsensus/matrix-sdk-go/v2/common/config"
+	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
 	"github.com/xuperchain/crypto/client/service/base"
 	"github.com/xuperchain/crypto/client/service/gm"
 	"github.com/xuperchain/crypto/client/service/xchain"

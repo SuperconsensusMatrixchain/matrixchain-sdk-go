@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	account_sgx "github.com/superconsensus/matrix-sdk-go/v2/account-sgx"
-	xuper_sgx "github.com/superconsensus/matrix-sdk-go/v2/xuper-sgx"
+	account_sgx "github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account-sgx"
+	xuper_sgx "github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/xuper-sgx"
 )
 
 var (
