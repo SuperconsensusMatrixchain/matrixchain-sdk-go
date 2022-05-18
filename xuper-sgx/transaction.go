@@ -5,7 +5,7 @@ import (
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account-sgx"
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common"
 	"github.com/pkg/errors"
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 	"strings"
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account"
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 )
 
 func TestTransaction(t *testing.T) {

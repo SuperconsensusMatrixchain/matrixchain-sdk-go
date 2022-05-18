@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/xuperchain/xuperchain/service/common"
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/common"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 )
 
 // MakeTransactionID 计算交易ID，包括签名。

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 )
 
 func TestIsValidAmount(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
 	"github.com/pkg/errors"
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/encoding/gzip"

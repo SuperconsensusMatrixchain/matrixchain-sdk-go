@@ -11,7 +11,7 @@ package xuper_sgx
 //
 //	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/account"
 //	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
-//	"github.com/xuperchain/xuperchain/service/pb"
+//	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 //)
 //
 //func TestNewXClient(t *testing.T) {

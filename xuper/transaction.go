@@ -8,7 +8,7 @@ import (
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common"
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/crypto"
 
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 )
 
 // Transaction xuperchain transaction.

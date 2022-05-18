@@ -8,7 +8,7 @@ import (
 	"math/big"
 
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common"
-	"github.com/xuperchain/xuperchain/service/pb"
+	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
 )
 
 func initQueryOpts(opts ...QueryOption) (*queryOption, error) {
