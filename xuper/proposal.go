@@ -154,11 +154,13 @@ func (p *Proposal) GenCompleteTx() (*Transaction, error) {
 	}
 
 	if p.cfg.ComplianceCheck.IsNeedComplianceCheck {
+		// do check
 		tx, err = p.genTxWithComplianceCheck()
 		if err != nil {
 			return nil, err
 		}
 	} else {
+		// generate tx
 		tx, err = p.genTx()
 		if err != nil {
 			return nil, err
@@ -173,7 +175,7 @@ func (p *Proposal) GenCompleteTx() (*Transaction, error) {
 		ContractResponse = preResp.GetResponse().GetResponses()[len(preResp.GetResponse().GetResponses())-1]
 	}
 
-	// initiator sign tx and calc tx ID.
+	// initiator sign tx and calc tx ID. 补充完整交易时这里会进行签名
 	digestHash, err = p.signTx(tx)
 	if err != nil {
 		return nil, err
@@ -293,6 +295,7 @@ func (p *Proposal) signTx(tx *pb.Transaction) ([]byte, error) {
 	initiator := p.request.initiatorAccount
 
 	cryptoClient := crypto.GetCryptoClient()
+	// private key: nil --> err happen
 	privateKey, err := cryptoClient.GetEcdsaPrivateKeyFromJsonStr(initiator.PrivateKey)
 	if err != nil {
 		return nil, err

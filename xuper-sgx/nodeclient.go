@@ -6,8 +6,8 @@ import (
 	"crypto/x509"
 	"fmt"
 	"github.com/SuperconsensusMatrixchain/matrixchain-sdk-go/v2/common/config"
-	"github.com/pkg/errors"
 	"github.com/SuperconsensusMatrixchain/matrixchain/service/pb"
+	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/encoding/gzip"
@@ -194,6 +194,7 @@ func (x *XClient) PreExecTx(req *Request) (*Transaction, error) {
 
 	return &Transaction{
 		ContractResponse: cr,
+		GasUsed: proposal.preResp.GetResponse().GetGasUsed(),
 	}, nil
 }
 
